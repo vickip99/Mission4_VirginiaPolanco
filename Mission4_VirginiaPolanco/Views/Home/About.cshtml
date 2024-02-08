@@ -1,0 +1,39 @@
+﻿<section class="page-section about-heading">
+    <div class="container">
+
+        <div class="about-heading-content">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">You need some help starting?</span>
+                            <span class="section-heading-lower">Don't worry we got you!</span>
+                        </h2>
+                        <p>Fill out the information below to see our estimates based on your needs. Our beginners journaling classes are very flexible and cater to your style. We're just here to help you get started!</p>
+
+                        <form id="estimateForm">
+                            <label>How many hours will you need us?</label>
+                            <input id="hoursWanted" />
+                            <br />
+                            <br />
+                            <label>Our fixed cost per hour: </label>
+                            <input id="fixedCost" value="15" disabled />
+                            <br />
+                            <br />
+                            <button id="button">Calculate!</button>
+                            <br />
+                            <output id="outputBox" style="display: none;">
+                                Total Cost: $<span id="result"></span>
+                            </output>
+                            <div id="message"></div>
+                        </form>
+
+                        <script src="~/lib/jquery/jquery.min.js"></script>
+                        <script src="~/js/site.js"></script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
